@@ -1,0 +1,164 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 550px;
+    padding: 30px 0px;
+    background: linear-gradient(to bottom right, seagreen, teal);
+    color: white;
+}
+.wrapper .form {
+    width: 320px;
+    height: 500px;
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+.form h2 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 20px;
+    background-color: transparent;
+    color: #000;
+    margin-bottom: 20px;
+    transition: all 0.4s;
+}
+.form .label {
+    color: #000;
+    font-weight: bold;
+    line-height: 25px;
+    display: block;
+    transition: all 0.4s;
+}
+.form .username,
+.form .password,
+.form .email {
+    display: flex;
+    border-bottom: 2px solid #FF01BC;
+    background-color: transparent;
+    margin-bottom: 20px;
+    transition: all 0.4s;
+}
+.form input {
+    background: none;
+    color: #FFFAFA;
+    border: none;
+    outline: none;
+    display: block;
+    flex-grow: 1;
+    line-height: 35px;
+    font-weight: bold;
+    letter-spacing: 0.1ch;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form .password span {
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-left: 20px;
+    line-height: 35px;
+}
+.form .submit button {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background: none;
+    border: 1.5px solid white;
+    outline: none;
+    color: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 40px;
+    transition: all 0.4s;
+}
+.form .submit button:hover {
+    background: #3207EF;
+    color: #fff;
+}
+.form,h2:hover {
+  background: transparent;
+    color: #FFF8F8;
+    
+}
+.form .label:hover {
+  background: transparent;
+    color: #FFF8F8;
+}
+img {
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  color: #000;
+  transition: all 0.4s;
+}
+.reg {
+  background-color: #00A400;
+  color: #fff;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  float: center;
+  font-size: 25px;
+  text-align: center;
+  transition: 0.4s;
+}
+p {
+  font: bold;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.fff {
+  text-align: center;
+}
+.Logo {
+  width: 225px;
+  height: 50px;
+  background-color: transparent;
+  padding: 0px;
+}
+.reg:hover{
+  background-color: #0217FF;
+  color: #fff;
+}
+.form .password:hover{
+  border-radius: 50px;
+  border-bottom: 5px solid #FF01BC;
+}
+.form .username:hover{
+  border-radius: 50px;
+  border-bottom: 5px solid #FF01BC;
+}
+.email {
+    border-bottom: 2px solid #ddd;
+    background-color: transparent;
+    margin-bottom: 20px;
+    transition: all 0.4s;
+}
+.email:hover{
+  border-radius: 50px;
+  border-bottom: 5px solid #FF01BC;
+}
+.photo {
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  color: #000;
+  transition: all 0.4s;
+}
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0px;
+}
